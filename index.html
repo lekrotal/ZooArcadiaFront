@@ -3,12 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="scss/main.scss"><!-- ajout de scss-->
+    <link rel="stylesheet" href="scss/main.css"><!-- ajout de scss-->
+    <!--ajout de la police via google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet" />
     <title>Arcadia</title>
 </head>
 <body>
     <header>
-
+        <!-- Navbar Start -->
+        <nav
+        class="navbar navbar-expand-lg bg-white navbar-light sticky-top py-lg-0 px-4 px-lg-5 wow fadeIn"
+        data-wow-delay="0.1s"
+      >
+        <a href="index.html" class="navbar-brand p-0">
+          <img class="img-fluid me-3" src="img/icon/icon-10.png" alt="Icon" />
+          <h1 class="m-0 text-primary">Zoofari</h1>
+        </a>
+        <button
+          type="button"
+          class="navbar-toggler"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarCollapse"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse py-4 py-lg-0" id="navbarCollapse">
+          <div class="navbar-nav ms-auto">
+            <a href="index.html" class="nav-item nav-link active">Home</a>
+            <a href="about.html" class="nav-item nav-link">About</a>
+            <a href="service.html" class="nav-item nav-link">Services</a>
+            <a href="contact.html" class="nav-item nav-link">Contact</a>
+          </div>
+          <a href="" class="btn btn-primary"
+            >Buy Ticket<i class="fa fa-arrow-right ms-3"></i
+          ></a>
+        </div>
+      </nav>
+  <!-- Navbar End -->
     </header>
     <main id="main-page">
         <!-- le contenue de la page sera injecté ici -->
